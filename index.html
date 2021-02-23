@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Proyectoss</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="title">
+		<img class="logo" src="./img/logo.jpeg">
+		<h2 class="" id="title">JUNGLE HAIR SALOON</h2>
+	</div>
+
+
+	<div class="main-menu">
+		
+		<ul class="main-menu__list">
+			<li><a href="#title" class="main-menu__link">Inicio</a></li>
+			<li><a href="#booking" class="main-menu__link">Reserva</a></li>
+			<li><a href="#price" class="main-menu__link">Precios</a></li>
+			<li><a href="#aboutUs" class="main-menu__link">Sobre Nosotros</a></li>
+		</ul>
+
+	</div>
+
+	<div class="gallery">
+		
+			<a class="prev" onclick="plusSlide(-1,2)">&#10094;</a>
+			
+				<img class="gallery-slide" src="./img/logo-wide.jpeg">
+
+				<img class="gallery-slide" src="./img/panel1.jpg">
+			
+				<img class="gallery-slide" src="./img/panel2.jpg">
+			
+				<img class="gallery-slide" src="./img/panel3.jpeg">
+			
+			<a class="next" onclick="plusSlide(1,2)">&#10095;</a>
+		
+	</div>
+
+	<div id="booking" class="container">
+		<h2 class="title">RESERVA</h2>
+		<p>Poder hacer una reserva para esta semana!! Agenda un turno con uno de nuestros barberos y espera a recibir su mensaje con su disponibilidad</p>
+		<div class="btn-container btn1">
+			<a class="btn-contact" href="https://api.whatsapp.com/send?phone=542613377970&text=mensaje%20de%20prueba"><span>Agendar Turno con Seba</span></a>
+		</div>
+		<div class="btn-container btn2">
+			<a class="btn-contact" href="https://api.whatsapp.com/send?phone=542613377970&text=mensaje%20de%20prueba"><span>Agendar Turno con Enzo</span></a>
+		</div>
+	</div>
+	<div id="price" class="container">
+		<h2 class="title">PRECIOS</h2>
+		<p>* Los precios seleccionados pueden variar dependiendo del tipo de diseño a pedir, pongase en contacto con nuestros barberos para averiguarlo</p>
+		<table class="price-list">
+			<tr>
+				<th>Corte Basico</th>
+				<td>$300</td>
+			</tr>
+			<tr>
+				<th>Diseño Personalizado</th>
+				<td>$400 *</td>
+			</tr>
+			<tr>
+				<th>Corte de Pelo + Barba</th>
+				<td>$500</td>
+			</tr>
+			<tr>
+				<th>Corte de Barba</th>
+				<td>$300</td>
+			</tr>
+			<tr>
+				<th>Color</th>
+				<td>$700 *</td>
+			</tr>
+		</table>
+	</div>
+	<div id="aboutUs" class="container">
+		<h2 class="title">SOBRE NOSOTROS</h2>
+		<h3 class="subtitle-name">-Seba-</h3>
+		<div class="slide-container first">
+			<a class="prev" onclick="plusSlide(-1,0)">&#10094;</a>
+			<div class="slide-container__item">
+				<img class="firstSlide" src="./img/pelo1.jpg">
+			</div>
+			<div class="slide-container__item">
+				<img class="firstSlide" src="./img/pelo2.jpg">
+			</div>
+			<div class="slide-container__item">
+				<img class="firstSlide" src="./img/pelo3.jpg">
+			</div>
+			<a class="next" onclick="plusSlide(1,0)">&#10095;</a>
+		</div>
+		<aside>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolo</aside>
+		<div class="reset"></div>
+		<h3 class="subtitle-name">-Enzo-</h3>
+		<div class="slide-container second">
+			<a class="prev" onclick="plusSlide(-1,1)">&#10094;</a>
+			<div class="slide-container__item">
+				<img class="secondSlide" src="./img/pelo4.jpg">
+			</div>
+			<div class="slide-container__item">
+				<img class="secondSlide" src="./img/pelo5.jpg">
+			</div>
+			<div class="slide-container__item">
+				<img class="secondSlide" src="./img/pelo6.jpg">
+			</div>
+			<a class="next" onclick="plusSlide(1,1)">&#10095;</a>
+		</div>
+		<aside>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		Lorem ipsum dolor sit amet, con</aside>
+		<div class="reset"></div>
+
+	</div>
+	<div>
+		<h2>Encontranos en:</h2>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3344.9558625844425!2d-68.88016418532997!3d-33.03129328350716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e753912ce9f9f%3A0x6bb1eda1bc736e07!2sValcanera%2080%2C%20M5507%20Mendoza!5e0!3m2!1ses!2sar!4v1614013095344!5m2!1ses!2sar" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+	</div>
+	<footer>
+		<img class="logo" src="./img/logo.jpeg">
+		<h3>Jungle Hair Saloon® - 2021 -</h3>
+		<h3>Valcanera 80 - Local 4 - Lujan de Cuyo 5507 - Mendoza</h3>
+	</footer>
+<script src="script.js"></script>
+<script src="slide.js"></script>
+</body>
+</html>

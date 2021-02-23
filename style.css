@@ -8,8 +8,16 @@
 }
 body{
 	font-family: fontJungle, sans-serif;
-	background: rgba(0, 0, 0, 0.7);
+	background: rgba(0, 0, 0);
 }
+#parallax{
+	height: 500px;
+	background-image: url(./img/logo-wide.jpeg);
+	background-size: contain;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
 .slide-container img{
 	width: 100%;
 	height: auto;
@@ -31,6 +39,11 @@ p , aside{
 .logo{
 	max-height: 90px;
 	left: 0;
+}
+
+#price , #front , #booking , #aboutUs{
+	background: rgba(255, 255, 255, 0.5);
+
 }
 
 /* Main Menu */
@@ -96,6 +109,10 @@ p , aside{
 }
 
 /* Button animation */
+.buttons{
+	display: flex;
+	justify-content: center;
+}
 .btn-container{
 	border: 2px solid #fff;
 	display: inline-block;
@@ -104,10 +121,11 @@ p , aside{
 	width: auto;
 	text-align: center;
 	margin: 1rem;
+	background: rgba(0,0,0);
 }
 .btn-container:hover{
 	transition: 1s;
-	background: black;
+	background: #326273;
 }
 .btn-container span:hover{
 	letter-spacing: 0.5rem;
@@ -115,6 +133,9 @@ p , aside{
 }
 .btn-container span{
 	transition: 1s;
+}
+.btn-contact span{
+	color:#fff;
 }
 
 /* Table */
@@ -146,7 +167,6 @@ tr:hover{
 }
 
 .gallery{
-	border: 2px solid red;
 	display: flex;
 	justify-content: center;
 	padding-top: 1.5rem;
@@ -177,3 +197,5 @@ footer h3{
 footer .logo{
 
 }
+
+

@@ -17,7 +17,10 @@ body{
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 }
-
+.logo{
+	max-height: 90px;
+	left: 0;
+}
 .slide-container img{
 	width: 100%;
 	height: auto;
@@ -27,19 +30,24 @@ p , aside{
 	font-size: 1.5rem;
 	letter-spacing: 0.2rem;
 }
-
+.title-container{
+	display: flex;
+	justify-content: center;
+	background:black; 
+}
+.title-container .logo{
+	max-height: 9rem;
+}
 .title{
-	background: black;
+	
 	color:#fff;
 	display: flex;
 	width: 98%;
 	margin-bottom: 1rem;
 	padding: 1rem;
+	font-size: 3rem;
 }
-.logo{
-	max-height: 90px;
-	left: 0;
-}
+
 
 #price , #front , #booking , #aboutUs{
 	background: rgba(255, 255, 255, 0.5);
@@ -62,6 +70,10 @@ p , aside{
 	transition: 1s;
 	color: black;
 	background: rgba(255,255,255,0.9);
+}
+.main-menu__link{
+	font-size: 1.5rem;
+	letter-spacing: 5px;
 }
 .main-menu{
 	display: flex;
@@ -135,11 +147,12 @@ p , aside{
 }
 .btn-contact span{
 	color:#fff;
+	font-size: 3rem;
 }
 
 /* Table */
 .price-list{
-	font-size: 1.8rem;
+	font-size: 3rem;
 	cursor: pointer;
 	border-spacing: 1rem;
 	display: flex;
